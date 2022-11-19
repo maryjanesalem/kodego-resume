@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.container {
+    width: 800px;
+    max-width: 800px;
+    min-width: 400px;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgb(162, 130, 107);
+    margin: auto;
+    margin-bottom: 20px;
+}
+.pic-div {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 70px;
+
+}
+.job-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size:x-large;
+    letter-spacing: 3px;
+    color: rgb(143, 69, 69);
+    text-shadow: 2px 2px 2px rgb(193, 151, 151);
+}
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border: 6px solid #C0ACA6;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+header {
+    width: 50%;
+    text-align: right;
+    float: right;
+    margin-right:40px ;
+    margin-top: 10px;
+}
+h1 {
+    text-shadow: 2px 2px 2px rgb(105, 104, 104);
+    margin-right: 10px;
+    position: relative;
+}
+header h2 {
+    font-size: large;
+}
+header p {
+    font-size: medium;
+    display: inline;
+}
+.contact p {
+    margin-right: 5px;
+}
+.contact div {
+    line-height: 1.6;
+}
+.contact {
+    margin-bottom: 15px;
+}
+.header-deco {
+    width: 8px;
+    height: 200px;
+    background-color: rgb(143, 69, 69);
+    float: right;
+    position: relative;
+    top: -115px;
+    right: -15px;
+}
+.my-icons {
+    width: 20px;
+    height: auto;
+    display: inline;
+    text-align: right;
+}
+main {
+    display: block;
+    clear: both;
+}
+.experience-div {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.experience {
+    margin: 0 10px;
+    text-align: center;
+    width: 200px;
+}
+main h2 {
+    background-color: rgb(193, 151, 151);
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(143, 69, 69);
+    border-radius: 100%;
+    margin: auto;
+}
+.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.education p {
+    text-align: center;
+    line-height: 0.8;
+    
+}
+.bg-bar {
+    width: 120px;
+    height: 20px;
+    background-color: rgba(143, 69, 69, 0.408);
+    border-radius: 20px;
+}
+
+.bar1, .bar2, .bar3, .bar4 {
+    background-color: rgb(143, 69, 69);
+    border-radius: 20px;
+    height: 20px;
+}
+
+.bar1 {
+    width: 110px;
+    position: relative;
+    top: -20px;
+}
+.bar2 {
+    width: 90px;
+    position: relative;
+    top: -20px;
+}
+.bar3 {
+    width: 90px;
+    position: relative;
+    top: -20px;
+}
+.bar4 {
+    width: 75px;
+    position: relative;
+    top: -20px;
+}
+.website {
+    clear: both;
+    margin: auto;
+    display: block;
+    color: rgb(143, 69, 69);
+    width:fit-content;
+    padding: auto 6px;
+}
+.skillset1 {
+    float: left;
+}
+
+.skillset2 {
+    float: right;
+}
+
+.exp {
+    clear: both;
+}
+.skills {
+    width: 50%;
+    margin: auto;
+}
+
+.exp-line {
+    width: 80%;
+    height: 5px;
+    background-color: rgba(143, 69, 69, 0.408);
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    top: 78px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(143, 69, 69);
+}
+
+.header-link {
+    color: black;
+}
+
+.exp-description {
+    font-size: medium;
+    margin-bottom: 50px;
+}
+
+.skill-icon {
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(143, 69, 69, 0.1);
+    margin: 5px;
+}
+
+.skill-icon img {
+    height: 40px;
+    width: auto;
+    margin: 0 20px;
+}
+
+.experience-div {
+    display: flex;
+}
